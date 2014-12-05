@@ -5,6 +5,29 @@ html {margin:0; padding:0;}
 
 body {margin:0; padding:0; background-color:rgba(228,180,89,1.00);}
 
-p { font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; font-size:16px; font-weight:normal;}
+p { font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif; font-size:12pt; font-weight:normal;}
 
-.mainContainer {margin:0 auto; padding:14px 12px; width: 750px; border-box:box-sizing; background-color:rgba(119,160,208,1.00);}
+.mainContainer {margin:0 auto; padding:14px 12px; border-box:box-sizing; background-color:rgba(119,160,208,1.00);}
+
+@media screen and (max-device-width: 640px) {
+	
+	body {margin:0; padding:0; background-color:rgba(173,185,80,1.00);}
+	}
+	
+	
+	@media screen and (min-device-width: 641px) and (max-device-width: 899px)  {
+	
+	body {margin:0; padding:0; background-color:rgba(211,118,76,1.00);}
+	}
+	
+	
+	@media screen and (min-device-width: 900px) {
+	body {margin:0; padding:0; background-color:rgba(142,98,167,1.00);}
+	
+	}
+	
+	/*
+	@media screen and (orientation: portrait) {
+		body {margin:0; padding:0; background-color:#ff00aa;}
+	}
+	*/
