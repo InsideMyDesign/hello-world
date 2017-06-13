@@ -1,2 +1,2 @@
-console.log('Autaah');
-console.log('Autaah');
+(document).height(100);
+console.log('Asutaah');
